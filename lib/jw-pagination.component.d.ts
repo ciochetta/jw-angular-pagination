@@ -8,5 +8,5 @@ export declare class JwPaginationComponent implements OnInit, OnChanges {
     pager: any;
     ngOnInit(): void;
     ngOnChanges(changes: SimpleChanges): void;
-    private setPage(page);
+    public setPage(page);
 }
